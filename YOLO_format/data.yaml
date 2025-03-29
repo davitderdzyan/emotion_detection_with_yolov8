@@ -1,0 +1,22 @@
+data: "./YOLO_format"
+
+train: "./train/images"
+val: "./valid/images"
+test: "./test/images"
+
+nc: 8
+
+names:
+  [
+    "Anger",
+    "Contempt",
+    "Disgust",
+    "Fear",
+    "Happy",
+    "Neutral",
+    "Sad",
+    "Surprise",
+  ]
+
+# Network configuration (choose other variations if desired)
+network: "yolov8n"
